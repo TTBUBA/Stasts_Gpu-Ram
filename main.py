@@ -4,7 +4,7 @@ import gpustat
 import requests
 
 TOKEN = ''  
-CHAT_ID = 819034844  
+CHAT_ID =   
 cpu_usage = psutil.cpu_percent(interval=1)
 gpu_usage = gpustat.GPUStatCollection.new_query()
 ram_usage = psutil.virtual_memory().percent
