@@ -3,7 +3,7 @@ import psutil
 import gpustat
 import requests
 
-TOKEN = '7771087964:AAHSrOAp1Z9K7-D5MlCR3JHh-4_8ZXK9t2Y'  
+TOKEN = ''  
 CHAT_ID = 819034844  
 cpu_usage = psutil.cpu_percent(interval=1)
 gpu_usage = gpustat.GPUStatCollection.new_query()
